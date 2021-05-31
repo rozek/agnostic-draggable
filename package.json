@@ -28,7 +28,7 @@
 		"name": "Marcos Pont",
 		"email": "marcos.pont@gmail.com"
 	},
-	"contributors":[
+	"contributors": [
 		"Andreas Rozek <a.rozek@gmx.de>"
 	],
 	"main": "dist/agnostic-draggable.js",
