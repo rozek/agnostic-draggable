@@ -1,6 +1,6 @@
 {
 	"name": "agnostic-draggable-bug-fixed",
-	"version": "1.0.7",
+	"version": "1.0.8",
 	"description": "An agnostic set of libraries implementing draggable, droppable and sortable behaviours inspired by the jQuery UI implementation",
 	"keywords": [
 		"draggable",
