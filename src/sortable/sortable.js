@@ -378,9 +378,9 @@ export default class Sortable extends Draggable {
 
 		if (
 			(revert === 'invalid' && !sortStop.droppable) ||
-			(revert === 'valid' && sortStop.droppable) ||
-			revert ||
-			(isFunction(revert) && revert(this.currentItem, sortStop.droppable))
+			(revert === 'valid'   && sortStop.droppable)  ||
+			(isFunction(revert)   && revert(this.currentItem, sortStop.droppable)) ||
+			(revert == true)
 		) {
 			this.reverting = true;
 			anime({
@@ -627,9 +627,9 @@ export default class Sortable extends Draggable {
 			} else if (nodeName === 'img') {
 				element.setAttribute('src', this.currentItem.getAttribute('src'));
 			}
-			style(element, {
-				visibility: 'hidden'
-			});
+			//style(element, {
+			//	visibility: 'hidden'
+			//});
 			this.placeholder = insertAfter(element, this.currentItem);
 			this.updatePlaceholder(this, element);
 		} else {
