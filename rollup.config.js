@@ -36,7 +36,8 @@ export default [
 					'array-includes',
 					["@babel/plugin-proposal-private-methods", { "loose": false }]
 				]
-			})
+			}),
+			terser()
 		]
 	}
 ];
