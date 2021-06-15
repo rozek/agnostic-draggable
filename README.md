@@ -1,4 +1,12 @@
-# agnostic-draggable
+# agnostic-draggable(-bug-fixed) #
+
+**Important!**
+
+**This repository is just a "copy" of the original [agnostic-draggable](https://github.com/marcospont/agnostic-draggable) with important bug fixes which have not yet been merged into the original. As a consequence, this repository may become obsolete as soon as the original package has been fixed.**
+
+**The resulating package has been registered as NPM package "agnostic-draggable-bug-fixed"**
+
+*(Original description follows)*
 
 Most of UI developers that worked with web apps from 2008 to 2014 certainly used or at least searched for a library implementing Drag & Drop support. From all the libraries that were available within that period, [jQuery UI](https://jqueryui.com/) was certainly one of the best choices.
 

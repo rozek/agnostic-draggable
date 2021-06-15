@@ -29,8 +29,14 @@ export default [
 						}
 					]
 				],
-				plugins: ['@babel/plugin-proposal-class-properties', '@babel/plugin-proposal-object-rest-spread', 'array-includes']
-			})
+				plugins: [
+					'@babel/plugin-proposal-class-properties', 
+					'@babel/plugin-proposal-object-rest-spread', 
+					'array-includes',
+					["@babel/plugin-proposal-private-methods", { "loose": false }]
+				]
+			}),
+			terser()
 		]
 	}
 ];
