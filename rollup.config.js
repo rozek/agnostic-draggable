@@ -12,7 +12,7 @@ export default [
 			exports: 'named',
 			name: 'agnosticDraggable',
 			sourcemap: true,
-			plugins: [terser()]
+			plugins: [terser({ format: { comments: false, safari10: true } })]
 		},
 		plugins: [
 			resolve({ browser: true, preferBuiltins: false }),
@@ -30,13 +30,13 @@ export default [
 					]
 				],
 				plugins: [
-					'@babel/plugin-proposal-class-properties', 
-					'@babel/plugin-proposal-object-rest-spread', 
+					'@babel/plugin-proposal-class-properties',
+					'@babel/plugin-proposal-object-rest-spread',
 					'array-includes',
-					["@babel/plugin-proposal-private-methods", { "loose": false }]
+					['@babel/plugin-proposal-private-methods', { loose: false }]
 				]
 			}),
-			terser()
+			terser({ format: { comments: false, safari10: true } })
 		]
 	}
 ];

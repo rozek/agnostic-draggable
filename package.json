@@ -32,6 +32,7 @@
 		"Andreas Rozek <a.rozek@gmx.de>"
 	],
 	"main": "dist/agnostic-draggable.js",
+	"types": "dist/agnostic-draggable.d.ts",
 	"scripts": {
 		"build": "mkdir -p ./dist && cp ./agnostic-draggable.d.ts ./dist && rollup -c",
 		"develop": "mkdir -p ./dist && cp ./agnostic-draggable.d.ts ./dist && rollup -c -w",
