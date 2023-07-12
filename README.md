@@ -1,10 +1,12 @@
 # agnostic-draggable(-bug-fixed) #
 
-**Important!**
+~~**Important!**
 
 **This repository is just a "copy" of the original [agnostic-draggable](https://github.com/marcospont/agnostic-draggable) with important bug fixes which have not yet been merged into the original. As a consequence, this repository may become obsolete as soon as the original package has been fixed.**
 
-**The resulating package has been registered as NPM package "agnostic-draggable-bug-fixed"**
+**The resulating package has been registered as NPM package "agnostic-draggable-bug-fixed"**~~
+
+**Important: as mentioned above, this module has become obsolete - please use the [original module](https://github.com/marcospont/agnostic-draggable) instead**
 
 *(Original description follows)*
 
